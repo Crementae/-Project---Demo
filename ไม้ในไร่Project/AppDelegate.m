@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "GoogleMaps/GoogleMaps.h"
+#import "ARViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -14,9 +17,17 @@
 
 @implementation AppDelegate
 
+void uncaughtExceptionHandle(NSException * exception){
+    NSLog(@"CLASH: %@",exception);
+    NSLog(@"STACK TRACE: %@",[exception callStackSymbols]);
+    NSLog(@"Stack trace: %@",[NSThread callStackSymbols]);
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+      NSSetUncaughtExceptionHandler(&uncaughtExceptionHandle);
     // Override point for customization after application launch.
+    [GMSServices provideAPIKey:@"AIzaSyBxtrf631Z8DkD-4oT08HKY658ST4K8Q8g"];
+    
     return YES;
 }
 

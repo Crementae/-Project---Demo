@@ -1,0 +1,37 @@
+/* 
+  Localizable.strings
+  ไม้ในไร่Project
+
+  Created by Adisorn Chatnaratanakun on 4/2/2558 BE.
+  Copyright (c) 2558 Adisorn Chatnartanakun. All rights reserved.
+*/
+
+"search_hint" = "ค้นหาพรรณไม้";
+"sidebar_Recommended_Tree" = " ต้นไม้ที่แนะนำ";
+"sidebar_all_season" = "พรรณไม้ทุกฤดู";
+"sidebar_Summer_Season" = "พรรณไม้ฤดูร้อน";
+"sidebar_Rainy_Season" = "พรรณไม้ฤดูฝน";
+"sidebar_Cold_Season" = "พรรณไม้ฤดูหนาว";
+"sidebar_map_label" = "แผนที่";
+"sidebar_ar_label" = "กล้องเออาร์";
+"sidebar_setting_header" = "ตั้งค่า";
+"sidebar_setting_about" = "เกี่ยวกับ";
+"sidebar_setting_language" = "ภาษา";
+"sidebar_location_service" = "บริการที่ตั้ง";
+"sidebar_setting_online" = "Online Mode";
+"sidebar_setting_3g" = "Enable 3G";
+
+"title_all_tree" ="ฤดูทั้งหมด";
+"title_main" ="ไม้ในไร่";
+"title_summer_tree" ="ฤดูร้อน";
+"title_recomendation_tree" = "ต้นไม้ที่แนะนำ";
+"title_rainy_tree" = "ฤดูฝน";
+"title_cold_tree" = "ฤดูหนาว";
+
+"view_sci_name" = "ชื่อวิทยาศาสตร์: ";
+"view_fam_name" = "ชื่อวงศ์: ";
+
+"ar_r_level_1" = "100 ม.";
+"ar_r_level_2" = "200 ม.";
+"ar_r_level_3" = "500 ม.";
+

@@ -1,0 +1,39 @@
+/* 
+  Localizable.strings
+  ไม้ในไร่Project
+
+  Created by Adisorn Chatnaratanakun on 4/2/2558 BE.
+  Copyright (c) 2558 Adisorn Chatnartanakun. All rights reserved.
+*/
+
+"sidebar_Recommended_Tree" = "Recommended Trees";
+"sidebar_all_season" = "All Seasons";
+"sidebar_Summer_Season" = "Hot Season";
+"sidebar_Rainy_Season" = "Rainy Season";
+"sidebar_Cold_Season" = "Cool Season";
+"sidebar_map_label" = "Map";
+"sidebar_ar_label" = "AR Camera";
+"sidebar_setting_header" = "Setting";
+"sidebar_setting_about" = "About";
+"sidebar_setting_language" = "Language";
+"sidebar_location_service" = "Location Service";
+"sidebar_setting_online" = "Online Mode";
+"sidebar_setting_3g" = "Enable 3G";
+
+"view_sci_name" = "Scientific Name: ";
+"view_fam_name" = "Family Name: ";
+
+"title_all_tree" ="All Seasons";
+"title_main" ="Mai Nai Rai";
+"title_summer_tree" ="Hot Season";
+"title_recomendation_tree" = "Recomended Trees";
+"title_rainy_tree" = "Rainy Season";
+"title_cold_tree" = "Cool Season";
+
+"ar_r_level_1" = "100 M.";
+"ar_r_level_2" = "200 M.";
+"ar_r_level_3" = "500 M.";
+
+"search_hint" = "Search";
+
+

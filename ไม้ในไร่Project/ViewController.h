@@ -8,7 +8,24 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class PlaceData;
+
+    @interface ViewController : UIViewController <UIScrollViewDelegate>{
+        PlaceData * data;
+}
+
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *barButton;
+
+@property (nonatomic, strong) IBOutlet UIScrollView *scrollView;
+@property (nonatomic, strong) IBOutlet UIPageControl *pageControl;
+@property (nonatomic, weak) IBOutlet UIScrollView *scroller;
+@property (nonatomic, retain) UIImage *image;
+@property (nonatomic, retain) IBOutlet UIImageView *imageView;
+@property PlaceData *data;
+@property (strong, nonatomic)IBOutlet UITextField *TitleField;
+
+
+
 
 
 @end
